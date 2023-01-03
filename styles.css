@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header {
+  width: 1440px;
+  background-color: #f8bfc7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar {
+  margin-left: 50px;
+  display: flex;
+  min-height: 90px;
+  align-items: center;
+}
+
+.nav-element {
+  margin-right: 30px;
+  cursor: pointer;
+}
+.menu {
+  margin-right: 50px;
+  cursor: pointer;
+}
+.content {
+  background-image: url(images/background.svg);
+  width: 1440px;
+  height: 600px;
+  background-repeat: no-repeat;
+  padding-left: 90px;
+  padding-top: 40px;
+}
+.full-form {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.input-form {
+  display: inline-flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #f8bfc7;
+
+  padding: 30px;
+  border: 3px solid;
+  border-color: white;
+  color: white;
+}
+
+.name,
+.city,
+.gift,
+.email {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+.name input[type="text"],
+.city input[type="text"],
+.gift input[type="text"],
+.email input[type="email"] {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: #f8bfc7;
+  font-size: 20px;
+  color: white;
+}
+input::placeholder {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+.form-button {
+  cursor: pointer;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 30px;
+  color: white;
+  background-color: #feb700;
+  padding: 20px 40px 20px 40px;
+  max-height: 60px;
+}
+.parcel-info {
+  width: 1440px;
+  background-color: #336fd1;
+  color: #feb700;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 110px;
+}
+
+.parcel-info a {
+  font-size: 50px;
+  line-height: 57px;
+  font-weight: 600;
+}
+.footer {
+  height: 90px;
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: #f8bfc7;
+}
+
+.foo-item {
+  font-weight: bold;
+  line-height: 23px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
